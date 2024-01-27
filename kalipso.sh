@@ -5,7 +5,7 @@ file="../../running_slips_info.txt"
 # Declare a string array
 declare -a open_redis_servers=()
 declare -a ports=()
-
+#123
 while IFS= read -r line # read file line by line
 do
     # ignore line if it starts with # or has Date in it
